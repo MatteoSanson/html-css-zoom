@@ -61,8 +61,35 @@ header {
 
 /* #region MAIN  */
 main {
-    height: calc(100vh - 120px)
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    padding-top: 30px;
 }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    /* STILE DA TOGLIERE  */
+    height: calc(90vh - 80px);
+    color: green;
+    /* STILE DA TOGLIERE  */
+}
+
+.contatti {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.contatto {
+    width: calc(100% / 7 - 10px);
+    border: 2px dashed green;
+    height: 100px;
+    margin: 0 5px 15px 5px;
+}
+
 /* #endregion MAIN  */
 
 
