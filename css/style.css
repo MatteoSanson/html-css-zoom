@@ -7,15 +7,11 @@
 /* #endregion RESET  */
 
 /* #region FONT E STILE */
-.button-top {
-    font-size: 12px;
-    font-weight: 300;
-}
-
 body {
     background-color: black;
     color: white;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100wh;
 }
 
 a {
@@ -31,9 +27,11 @@ a {
 header {
     width: 100%;
     height: 40px;
+    text-align: right;
+    padding: 5px 5px 5px 0;
 }
 
-.top-bar {
+/* .top-bar {
     display: flex;
     justify-content: flex-end;
     padding: 5px;
@@ -49,6 +47,20 @@ header {
     background-color: #4a4a4a;
     padding: 4px 4px;
     border-radius: 5px;
+} */
+
+.bottone {
+    all: unset;
+    color: inherit;
+    text-align: center;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.bottone.bottone-secondario {
+    background-color: #4a4a4a;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /* #endregion HEADER  */
@@ -56,11 +68,13 @@ header {
 
 /* #region MAIN  */
 main {
+    width: 100%;
     height: calc(100% - 120px);
     display: flex;
     justify-content: center;
     overflow-y: scroll;
     padding-top: 30px;
+    min-height: 300px;
 }
 
 .container {
