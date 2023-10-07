@@ -108,5 +108,35 @@ footer {
     display: flex;
 }
 
+.piede{
+    display: flex;
+    gap: 15px;
+}
 
+.nav-left, .nav.right {
+    width: 15%;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: right;
+    height: 100%;
+}
+
+.nav-left {
+    padding-left: 15px;
+}
+.bottone.doppio i{ 
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.bottone.doppio i {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.bottone.freccia i {
+    font-size: 10px;
+}
 /* #endregion FOOTER  */
