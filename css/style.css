@@ -106,6 +106,7 @@ footer {
     background-color: #222222;
     height: 80px;
     display: flex;
+    justify-content: space-between;
 }
 
 .piede{
@@ -113,8 +114,12 @@ footer {
     gap: 15px;
 }
 
-.nav-left, .nav.right {
+.nav-left {
     width: 15%;
+}
+
+.nav.right {
+    width: 25%;
 }
 
 .nav-right {
@@ -138,5 +143,24 @@ footer {
 
 .bottone.freccia i {
     font-size: 10px;
+}
+
+
+
+
+.piede.nav-right {
+    display: flex;
+    justify-content: right;
+    height: 100%;
+}
+
+.bottone .grigio {
+    padding: 20px;
+    color: red;
+}
+
+.bottone.grigio:hover {
+    background-color: red;
+    color: white;
 }
 /* #endregion FOOTER  */
