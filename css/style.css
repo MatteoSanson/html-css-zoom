@@ -150,15 +150,13 @@ footer {
 }
 
 
-
-
 .piede.nav-right {
     display: flex;
     justify-content: right;
     height: 100%;
 }
 
-.bottone .grigio {
+.bottone.grigio.chiusura{
     padding: 20px;
     color: red;
 }
