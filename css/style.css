@@ -165,4 +165,8 @@ footer {
     background-color: red;
     color: white;
 }
+
+.bottone.doppio.attivo i {
+    color: #4bc800;
+}
 /* #endregion FOOTER  */
