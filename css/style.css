@@ -118,6 +118,10 @@ footer {
     width: 15%;
 }
 
+.bottone.doppio > span {
+    display: block;
+}
+
 .nav.right {
     width: 25%;
 }
